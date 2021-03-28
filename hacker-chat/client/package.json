@@ -1,6 +1,6 @@
 {
   "name": "@wesleyarizio/hacker-chat-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -9,9 +9,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "user01": "node index.js --userName joao --rom sala01",
-    "user02": "node index.js --userName maria --rom sala01",
-    "user03": "node index.js --userName maria --rom sala01",
+    "user01": "node index.js --userName joao --room sala01",
+    "user02": "node index.js --userName marcia --room sala01",
+    "user03": "node index.js --userName maria --room sala01",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
