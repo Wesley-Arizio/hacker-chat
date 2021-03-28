@@ -6,7 +6,7 @@ export default class TerminalController {
   constructor() {}
 
   #pickColor() {
-    return `#${(((1 << 24) * Math.random()) | 0).toString()}-fg`;
+    return `#${(((1 << 24) * Math.random()) | 0).toString(16)}-fg`;
   }
 
   #getUserColor(userName) {
